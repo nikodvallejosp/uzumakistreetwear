@@ -1,0 +1,29 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0p;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    background-color: #222323;
+}
+
+/* estilos de header */
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+
+header nav ul li{
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+}
