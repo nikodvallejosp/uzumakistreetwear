@@ -78,7 +78,6 @@ main .contenedor{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 0.5rem;
-    
 }
 
 main section .card-dest{
@@ -93,6 +92,24 @@ main section .card-dest{
 main section .card-dest img{
     width: 100%;
     display: grid;
+
+}
+
+main .titulo-productos{
+    margin-left: 5%;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+main .productxs{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
 
 }
 
@@ -197,7 +214,12 @@ button:hover{
 
 }
 
-.iniciar-sesion{
-
+.filtro {
+    background-color: whitesmoke;
+    padding: 0 5%;
+    color: #222323;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
 }
-
